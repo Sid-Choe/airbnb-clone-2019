@@ -74,7 +74,7 @@ class Room(core_models.TimeStampedModel):
     guests = models.PositiveIntegerField()
     beds = models.PositiveIntegerField()
     bedrooms = models.PositiveIntegerField()
-    bath = models.PositiveIntegerField()
+    baths = models.PositiveIntegerField()
     check_in = models.TimeField()
     check_out = models.TimeField()
     instant_book = models.BooleanField(default=False)

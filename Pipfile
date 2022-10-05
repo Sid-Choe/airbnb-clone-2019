@@ -8,6 +8,7 @@ django = "*"
 pillow = "*"
 pip = "*"
 django-countries = "*"
+django-seed = "==0.2.2"
 
 [dev-packages]
 flake8 = "*"
